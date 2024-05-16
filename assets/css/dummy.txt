@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$white : #ffffff;
+$orange : #FF8C00;
+$skyblue : #72CAF2;
+$olivegreen : #00526D;
+$textgrey : #7F8A99;
+$textblack : #061138;
+$poppins : "Poppins", sans-serif;
+*{
+    font-family: "Playfair Display", serif;
+    transition: 0.5s;
+    a{
+        text-decoration: none !important;
+        &:hover{
+            text-decoration: none !important;
+        }
+        &.globallink{
+            font-size: 13px;
+            line-height: 24px;
+            color: $textblack;
+            grid-row: 700;
+            font-family: $poppins;
+        }
+    }
+    body{
+        // Start Header
+        header {
+            &.scrolled {
+                .container {
+                    .row {
+                        .logo {
+                            img {
+                                
+                            }
+                        }
+                        .navigation {
+                            .navlink {
+                                ul {
+                                    li {
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .container {
+                .row {
+                    .logo {
+                        img {
+                            
+                        }
+                    }
+                    .navigation {
+                        .navlink {
+                            ul {
+                                li {
+                                    a {
+                                        &.active {
+        
+                                        }
+                                        &.bookbutton {
+        
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // End Header
+
+        // Start Banner
+        .banner {
+            &::before {
+                
+            }
+            .container {
+                .text {
+                    h1 {
+        
+                    }
+                    p {
+        
+                    }
+                }
+            }
+        }
+        
+        // End Banner
+
+        // Start Who We Are
+        .who {
+            .container {
+                .row {
+                    .col-md-7 {
+        
+                    }
+                    .col-md-5 {
+        
+                    }
+                }
+                .info {
+                    .row {
+                        .image {
+                            img {
+        
+                            }
+                        }
+                        .title {
+                            h6 {
+        
+                            }
+                            h2 {
+                                
+                            }
+                            .video {
+                                img {
+        
+                                }
+                                p {
+        
+                                }
+                            }
+                        }
+                        .para {
+                            p {
+        
+                            }
+                            a {
+        
+                            }
+                        }
+                    }
+                }
+                .form {
+                    .title {
+                        h3 {
+        
+                        }
+                    }
+                    form {
+                        .input {
+                            label {
+        
+                            }
+                            input, select {
+        
+                            }
+                            select {
+        
+                            }
+                        }
+                        .submitbutton {
+                            button {
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // End Who We Are
+
+        // Start Three
+        .three {
+            .container {
+                .row {
+                    .col-md-4 {
+        
+                    }
+                }
+                .single {
+                    .row {
+                        .image {
+                            &::before {
+        
+                            }
+                            &::after {
+        
+                            }
+                            img {
+        
+                            }
+                        }
+                        .text {
+                            h4 {
+        
+                            }
+                            p {
+        
+                            }
+                            a {
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // End Three
+
+        // Start Gift Card
+        .giftcard{
+            .container{
+                img{
+                }
+            }
+        }
+        // End Gift Card
+
+        // Start Our Thrill
+        .ourthrill {
+            &::before {
+            }
+            .container {
+                .title {
+                    h6 {
+        
+                    }
+                    h3 {
+        
+                    }
+                }
+                .single {
+                    // background-color: #f00;
+                    .image {
+                        &::after {
+        
+                        }
+                        img {
+        
+                        }
+                    }
+                    .content {
+                        .icon {
+                            img {
+        
+                            }
+                        }
+                        .text {
+                            h6 {
+        
+                            }
+                            h5 {
+        
+                            }
+                            a {
+        
+                            }
+                        }
+                    }
+                }
+                .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+                    .swiper-pagination {
+                        span {
+                            &.swiper-pagination-bullet-active {
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // End Our Thrill
+
+        // Start Testimonial
+        .testimonial {
+            .title {
+                h6 {
+        
+                }
+                h3 {
+        
+                }
+            }
+            .single {
+                .row {
+                    .image {
+                        img {
+        
+                        }
+                    }
+                    .text {
+                        .rating {
+                            &::before {
+        
+                            }
+                            p {
+                                svg {
+        
+                                }
+                            }
+                        }
+                        h5 {
+        
+                        }
+                        h6 {
+                            &::before {
+        
+                            }
+                        }
+                        p {
+        
+                        }
+                    }
+                }
+            }
+            .swiper.testimonialSwiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+                .swiper-pagination {
+                    span {
+                        &.swiper-pagination-bullet-active {
+        
+                        }
+                    }
+                }
+            }
+        }
+        
+        // End Testimonial
+
+        // Start Footer
+        footer {
+            .container {
+                .row {
+                    .col-md-4 {
+        
+                    }
+                }
+                .companyinfo {
+                    .logo {
+                        img {
+        
+                        }
+                    }
+                    .contactinfo {
+                        ul {
+                            li {
+                                a {
+                                    img {
+        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .sociallink {
+                        ul {
+                            li {
+                                a {
+                                    svg {
+        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .footerlink {
+                    .title {
+                        h3 {
+                            &::before {
+        
+                            }
+                        }
+                    }
+                    .link {
+                        ul {
+                            li {
+                                a {
+                                    &::before {
+        
+                                    }  
+                                }
+                            }
+                        }
+                    }
+                    .instagram {
+                        .row {
+                            .col-md-3 {
+        
+                            }
+                        }
+                    }
+                }
+            }
+            .copyright {
+                .container {
+                    p {
+        
+                    }
+                }
+            }
+        }
+        
+        // End Footer
+    }
+}
